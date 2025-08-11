@@ -1,0 +1,161 @@
+html, body{
+    height: 100%;
+    margin:0;
+
+}
+.header{
+    display:flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 8%;
+}
+.header-logo{
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 26px;
+    color:rgb(255, 255, 255);
+}
+
+ul{
+    gap:28px;
+    list-style-type: none; 
+    display:flex;
+    flex-direction: row;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#888D96;
+}
+.image{
+    width:50%;
+    height:50%;
+    background-color: black;
+}
+.img-container{
+
+    padding: 50px;
+    display:flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.container{
+
+    gap:8px;
+    align-items:flex-start;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-right:auto;
+    
+}
+.title-text{
+    font-size:42px;
+    font-weight:900;
+}
+.sign-up{
+    color:white;
+    font-weight:bold;
+    background-color:#3B82F6;
+    border-radius: 12px;
+    padding:10px 24px;
+}
+
+.body-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container{
+  display:flex;
+  gap:10px;
+  flex:1;
+  margin:0 150px;
+  margin-bottom:30px;
+}
+.info-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.info-img{
+    width: 50px;
+    height:50px;
+}
+
+.body-title{
+    color:black;
+    font-weight:900;
+    font-size:22px;
+    margin:30px;
+}
+.description{
+    text-align:center;
+}
+
+.quote-container{
+    padding:40px 150px;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.quote{
+    font-style: italic;
+    font-size:25px;
+}
+.credit{
+    font-weight:bold;
+    font-size:18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notification-container{
+    display: flex;
+    border-radius:4px;
+    padding:25px 100px;
+    margin:50px;
+    color:white;
+    background-color:#3B82F6 ;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.alert-text{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.alert-button{
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    border-radius:6px;
+    width:100px;
+    height:30px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E0E2E4;
+    text-align:center;
+    padding:20px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
